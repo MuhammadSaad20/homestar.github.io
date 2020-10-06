@@ -1,0 +1,356 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+.secp1 {
+    position: sticky;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow:hidden;
+    ;
+}
+
+.secp1 p{
+text-align: left;
+color: white;
+font-size: 3rem;
+font-family: fantasy;
+padding: 20px;
+margin: 25px;
+margin-left: 100px;
+margin-right: 100px;
+z-index: 1;
+opacity: 0.7;
+
+}
+
+.vcp1{
+position: absolute;
+top:0;
+left: 0;
+width: 100%;
+}
+
+
+#tempp1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:lightblue;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.5;
+}
+
+.siteimg{
+    width: 1370px;
+    height: 100%;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color:goldenrod;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  
+.sec2 {
+    position: sticky;
+    width: 100%;
+    height: 490px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow:hidden;
+}
+
+.ds1{
+    white-space: pre-line;
+    position: relative;
+    margin: 70px;
+    
+}
+
+.ds2{
+    width: 100px;
+    margin: 70px;
+    position: relative;
+   
+}
+
+
+.ds3{
+    width: 100px;
+    margin: 70px;
+    position: relative;
+}
+
+
+.ds4{
+    width: 100px;
+    margin: 70px;
+    position: relative;
+    
+}
+
+.ds5{
+    width: 100px;
+    margin: 70px;
+    position: relative;
+    
+}
+.hl{
+    width: 50%;
+    margin: auto;
+    margin-top: none;
+    border: 2px solid goldenrod;
+    background-origin: padding-box;
+    display: flex;
+}
+.hl1{
+    width: 50%;
+    margin: auto;
+    margin-top: none;
+    margin-bottom: 100px;
+    border: 2px solid #2b479c;
+    background-origin: padding-box;
+    display: flex;
+}
+.pic {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+
+.sec6{
+    box-sizing: border-box;
+    margin: 0 5px;
+
+
+}
+
+.c1,.c2,.c3{
+ float: left;
+  width: 25%;
+  padding: 0 50px;
+  padding-bottom:120px ;
+}
+
+
+
+.card {
+    box-shadow: 8px 8px 8px gray;
+    padding: 8px;
+    text-align: center;
+    background-color: #2b479c;
+    width: 350px;
+   
+}
+.card p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card:hover{
+    box-shadow: 8px 8px 8px goldenrod;
+
+}
+
+.sec6b{
+    box-sizing:border-box;
+    margin: 500px;
+    margin-top: 10px;
+    
+}
+
+.c4{
+    width: 150px;
+    float: left;
+    margin: 10px;
+    margin-left: auto;
+    margin-right:auto ;
+    
+}
+.card1 {
+    box-shadow: 8px 8px 8px gray;
+    padding: 2px;
+    text-align: center;
+    background-color: #2b479c;
+    width: 350px;
+}
+.card1 p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card1:hover{
+    box-shadow: 8px 8px 8px goldenrod;
+
+}
+
+open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+  
+  /* The popup chat - hidden by default */
+  .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width textarea */
+  .form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+  }
+  
+  /* When the textarea gets focus, do something */
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }

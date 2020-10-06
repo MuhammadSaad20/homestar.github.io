@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<head>
+    <html lang="en">
+<meta author="Muhammad Saad" description="WP Assignment v-0.1 | redesign  site https://homestars.com">
+<meta name="viewport" content="width=device-width",intial-scale="1.0">
+
+<link rel="stylesheet" href="./assets/pro.css">
+<link rel="icon" href="./assets/Media/logo.ico">
+
+<title>HomeStar | HOMEPRO</title>
+</head>
+<body>
+    <div class="secp1">
+        <p>Thousands of homeowners visit us every day looking for home service pros like you<br>
+                    Set up your HomeStars profile to connect with project-ready homeowners.</p>
+        
+      
+        <div class="vcp1">
+            <div id="tempp1"></div>
+            <img src="assets/Media/site-ban.jpg" class="siteimg">
+            <!--<video autoplay loop muted><source src="./assets/Media/Jigsaw - 4973.mp4" ></video>-->                  
+        </div>
+         
+         
+    
+    </div>
+
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;margin: 30px;margin-left:600px ;
+    ">HOMEPRO</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Buisnessname</b></label>
+      <input type="text" placeholder="Enter Buisnessname" name="uname" required>
+
+      <label for="psw"><b>Select type</b></label>
+      <input type="password" placeholder="Company Type" name="psw" required>
+        
+      <button type="submit">SIGN ME UP!</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="reset.html">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script src="assets/signin.js"></script>
+<div class="sec2">
+    
+    <div class="ds1">
+        <a href="#">
+        <img src="assets/Media/bn-1.png" alt="" />
+        </a>
+        <p> Connect homeowners</p>
+    </div>
+    
+    
+    <div class="ds2">
+        <a href=#>
+        <img src="assets/Media/bn2.png" alt="" />
+        </a>
+        <p> Showcase business</p>
+        
+    </div>
+
+    <div class="ds3">
+        <a href="#">
+        <img src="assets/Media/bn-3.png" alt="" />
+        </a>    
+        <p> Build Trust</p>
+        
+    </div>
+</div>
+
+<hr class="hl1">
+
+<img src="./assets/Media/logo.png" alt="" class="pic"/>
+
+<div class="sec6">
+      
+    <div class="c2">
+        <div class="card">
+            <img  width="100px" src="./assets/Media/girl-1.png" alt="">
+            <h2> Ed Strickland <br></h2>
+            <h3>Calgary, Alberta</h3>
+            <p>"Picked a plumbing contractor, based on HomeStars high ratings, to replace an aging hot water tank...choice did not disapponit, Duke's Plumbing in Calgary provided me with excellent service is all ways!"</p>
+            <hr class="hl">
+        </div>
+        
+    </div> 
+
+    <div class="c1">
+        <div class="card">
+            <img  width="100px" src="./assets/Media/boy.png" alt="">
+            <h2> Chad McPherson <br></h2>
+            <h3>Calgary, Alberta</h3>
+            <p>"We use them for most of our home needs. Very reliable and always get great results"<br></p>
+            <hr class="hl">
+        </div>
+    </div>
+
+
+    <div class="c3">
+        <div class="card">
+            <img  width="100px" src="./assets/Media/man.png" alt="">
+            <h2> Carrol Drew <br></h2>
+            <h3>Toronto, Ontario</h3>
+            <p>"HomeStars was recommended by a friend and we definitely found a really helpful contractor through this website. Will absolutely be using HomeStars when we next need work done at home"</p>
+            <hr class="hl">
+        </div>
+        
+    </div> 
+    
+  
+</div>
+
+<div class="sec6b">
+      
+    <div class="c4">
+        <div class="card1">
+            <img  width="100px" src="./assets/Media/girl.png" alt="">
+            <h2> Ed Strickland <br></h2>
+            <h3>Calgary, Alberta</h3>
+            <p>"Picked a plumbing contractor, based on HomeStars high ratings, to replace an aging hot water tank...choice did not disapponit, Duke's Plumbing in Calgary provided me with excellent service is all ways!"</p>
+
+            <hr class="hl">
+        </div>
+        
+    </div>  
+</div>
+<button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm" style="text-align: center; margin-left: 500px;">
+    <form class="form-container">
+      <h1>HomeStar | Chat</h1>
+  
+      <label for="msg"><b>Message</b></label>
+      <textarea placeholder="Type message.." name="msg" required></textarea>
+  
+      <button type="submit" class="btn">Send</button>
+      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+  </div>
+
+</body>
+
+</html>
